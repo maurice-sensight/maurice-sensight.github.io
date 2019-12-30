@@ -20,10 +20,16 @@ h6 {
 
 .navbar{
   background-color: #042F39;
+
 }
 
 .navbar-light.nav-link{
   color: #ffffff
+}
+
+.nav-link{
+  font-weight: 700;
+  font-size: 14px;
 }
 
 header.masthead {
