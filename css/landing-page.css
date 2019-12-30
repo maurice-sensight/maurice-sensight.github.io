@@ -22,6 +22,10 @@ h6 {
   background-color: #042F39;
 }
 
+.navbar-light.nav-link{
+  color: #ffffff
+}
+
 header.masthead {
   position: relative;
   /*background-color: #343a40;*/
