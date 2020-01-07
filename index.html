@@ -255,11 +255,13 @@
             url:'https://rzyiqmycmb.execute-api.us-east-1.amazonaws.com/dev/submit?email='+$("#email1").val(),
             type:'get',
             success:function(){
+              location.reload();
+              
                 //whatever you wanna do after the form is successfully submitted
             }
         });
         // $("#email1").val("")
-        location.reload();
+        // location.reload();
     });
 
     $('#myForm2').submit(function(e){
@@ -271,11 +273,12 @@
             url:'https://rzyiqmycmb.execute-api.us-east-1.amazonaws.com/dev/submit?email='+$("#email2").val(),
             type:'get',
             success:function(){
+              location.reload();
                 //whatever you wanna do after the form is successfully submitted
             }
         });
         // $("#email2").val("")
-        location.reload();
+
     });
 
 
